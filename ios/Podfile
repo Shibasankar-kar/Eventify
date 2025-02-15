@@ -24,6 +24,10 @@ target 'Eventify' do
   pod 'FirebaseCore', :modular_headers => true
   pod 'FirebaseCoreExtension', :modular_headers => true
   pod 'RecaptchaInterop', :modular_headers => true
+  pod 'Firebase/Auth', :modular_headers => true
+  pod 'FirebaseUI/Auth', :modular_headers => true
+  pod 'FirebaseUI/Email', :modular_headers => true
+  pod 'FirebaseUI/OAuth', :modular_headers => true
 
   use_react_native!(
     :path => config[:reactNativePath],
